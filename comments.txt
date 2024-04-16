@@ -1,0 +1,41 @@
+<pre>--- Summary ---
+Tests passed: 0 out of 4
+
+--- Details ---
+Test #0: failed 
+Test case description: ML4T-220
+Traceback:
+  File "grade_strategy_learner.py", line 237, in test_strategy
+    ) = run_with_timeout(timeoutwrapper_strategylearner, max_time, (), {})
+  File "grading.py", line 174, in run_with_timeout
+    raise e
+AttributeError: 'StrategyLearner' object has no attribute 'add_evidence'
+
+Test #1: failed 
+Test case description: AAPL
+Traceback:
+  File "grade_strategy_learner.py", line 237, in test_strategy
+    ) = run_with_timeout(timeoutwrapper_strategylearner, max_time, (), {})
+  File "grading.py", line 174, in run_with_timeout
+    raise e
+AttributeError: 'StrategyLearner' object has no attribute 'add_evidence'
+
+Test #2: failed 
+Test case description: SINE_FAST_NOISE
+Traceback:
+  File "grade_strategy_learner.py", line 237, in test_strategy
+    ) = run_with_timeout(timeoutwrapper_strategylearner, max_time, (), {})
+  File "grading.py", line 174, in run_with_timeout
+    raise e
+AttributeError: 'StrategyLearner' object has no attribute 'add_evidence'
+
+Test #3: failed 
+Test case description: UNH - In sample
+Traceback:
+  File "grade_strategy_learner.py", line 237, in test_strategy
+    ) = run_with_timeout(timeoutwrapper_strategylearner, max_time, (), {})
+  File "grading.py", line 174, in run_with_timeout
+    raise e
+AttributeError: 'StrategyLearner' object has no attribute 'add_evidence'
+
+</pre>
